@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Casa De Cambio</title>
+</head>
+<body>
+    <header>
+    <h1>Casa de Câmbio</h1>
+    </header>
+
+    <main>
+        <section>
+            <label for="currency-input">Digite uma moeda:</label>
+            <input type="text" id="currency-input">
+            <button id="search-button">Pesquisar</button>
+            <button id="save-localstorage-button">Salvar</button>
+        </section>
+        <section>
+            <h3 id="base">Base: USD</h3>
+            <ul id="currency-list"></ul>
+        </section>
+
+    </main>
+
+
+    
+    <script src="api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
